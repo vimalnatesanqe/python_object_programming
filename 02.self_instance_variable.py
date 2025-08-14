@@ -81,4 +81,29 @@ print(f"{ref_v.name},{ref_v.age},{ref_v.location}")
 print(f"{ref_v.currentlocation},{ref_v.mobno}")
 print(f"{ref_v.iswhatsappactive}")
 
+#deleting instance variable three ways using del
+#if it is inside constructor del self.
+#inside ithe instance method del self.
+#out side the constructor use del ref_var.
+
+
+#practice
+
+class practice():
+    class_var="constant value"
+    def __init__(self,changable_value):
+        self.changable_value=changable_value
+        self.cstr_declare="value"
+        print('constructor call statment')
+        print(self.changable_value)
+        print(self.cstr_declare)
+        self.instnd_md()
+    def instnd_md(self):
+        print('this is instand md call')
+        print(self.changable_value)
+        print(self.cstr_declare)
+for i in range(1,10):
+    ref_var=practice(i)
+
+
 
