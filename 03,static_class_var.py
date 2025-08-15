@@ -40,11 +40,15 @@ class st_var():
     @staticmethod
     def st_md(a):
         st_var.country=a+" "+"jappan"
-        print(st_var.country,a)
+        print(st_var.country)
 ref=st_var()
 ref.ins_md()
 st_var.cl_md()
 ref.st_md("my country is")
+
+#outside of the class
+
+
     
 
 
