@@ -5,7 +5,7 @@
 
 
 class human():
-
+    address="chennai"
     def __init__(self,name,age,college):
         self.name=name
         self.age=age
@@ -26,5 +26,8 @@ class man(human):
         super().printinfo()
         print(self.vhle)
         print(self.type)
-man=man('vimal',37,"SRM",'pulsar','petrol')
-man.printinfo()
+man2=man('vimal',37,"SRM",'pulsar','petrol')
+man2.printinfo()
+
+print(man2.__dict__)
+print(human.__dict__)
