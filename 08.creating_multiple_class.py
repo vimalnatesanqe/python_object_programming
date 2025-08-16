@@ -56,7 +56,7 @@ ref.ins_md_display()
 ref.clss_md_update()
 ref.stt_md_display()
 
-ref=class1()
+ref=class2()
 ref.ins_md_display()
 ref.clss_md_update()
 ref.stt_md_display()
